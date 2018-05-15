@@ -40,5 +40,4 @@ Memento d'analyse de données regroupant l'essentiel à savoir pour faire des st
 - Analyse multivariée  
 
 
-<div style="text-align:center;">*Écrit par* [*Johann Benerradi*](https://github.com/HanBnrd)</div>
-<div style="text-align:center;">*Merci de reporter toute erreur éventuelle*</div>
+*Écrit par* [*Johann Benerradi*](https://github.com/HanBnrd)
