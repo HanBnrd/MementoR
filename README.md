@@ -38,6 +38,8 @@ Memento d'analyse de données regroupant l'essentiel à savoir pour faire des st
 
 
 - Analyse multivariée  
+  - Analyse en Composantes Principales (ACP)  
+  - Analyse Factorielle des Correspondances Multiples (AFCM)  
 
 
 *Écrit par* [*Johann Benerradi*](https://github.com/HanBnrd)
