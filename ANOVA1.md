@@ -77,12 +77,12 @@ Hypothèses :
 **H0 :** *pas effet du facteur X sur Y*  
 **H1 :** *effet du facteur X sur Y*  
 
-Calcul de l'ANOVA
+Calcul de l'ANOVA :
 ```c
 anova = aov(Y~X)
 ```
 
-Affichage des résultats
+Affichage des résultats :
 ```c
 summary(anova)
 ```
