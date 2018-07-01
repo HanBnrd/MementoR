@@ -31,7 +31,7 @@ boxplot(Y~X)
 Le jeu de données doit avoir été fait de tel que toutes les observations sont indépendantes les unes des autres
 
 ##### Condition 2 : normalité des distributions
-Création des groupes de Y pour les différentes modalités :
+Création des sous-groupes de Y pour les différentes modalités :
 ```c
 mod1 = Y[X=="Modalite1"]
 mod2 = Y[X=="Modalite2"]
@@ -49,13 +49,13 @@ shapiro.test(mod2)
 shapiro.test(mod3)
 ```
 Conclusions au seuil 5% :  
-p-value < 0,05 → rejet de *HO* → l'échantillon ne suit pas une loi normale  
-p-value > 0,05 → non rejet de *HO* → l'échantillon suit une loi normale → **Condition OK**
+p-value < 0,05 pour chaque sous-groupe → rejet de *HO* → les données ne suivent pas une loi normale  
+p-value > 0,05 pour chaque sous-groupe → non rejet de *HO* → les données suivent une loi normale → **Condition OK**
 
 ##### Condition 3 : homoscédasticité ou égalité des variances
 Hypothèses d'homoscédasticité :  
-**H0 :** *les variances sont égales*  
-**H1 :** *il existe au moins une différence entre les variances des différents groupes*  
+**H0 :** *pas de différence entre les variances des différents sous-groupes*  
+**H1 :** *différence entre les variances des différents sous-groupes*  
 
 Test de Bartlett :
 ```c
@@ -74,7 +74,7 @@ Si au moins une des conditions n'est pas vérifiée → test non paramétrique
 ## Étape 4: réalisation du test
 ### Test paramétrique
 Hypothèses :  
-**H0 :** *pas effet du facteur X sur Y*  
+**H0 :** *pas d'effet du facteur X sur Y*  
 **H1 :** *effet du facteur X sur Y*  
 
 Calcul de l'ANOVA :
