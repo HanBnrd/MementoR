@@ -28,7 +28,7 @@ Memento d'analyse de données regroupant l'essentiel à savoir pour faire des st
 
 - Analyse de variance (ANOVA)  
   - [*Analyse de variance à un facteur*](https://github.com/HanBnrd/MementoR/blob/master/ANOVA1.md)  
-  - *Analyse de variance à deux facteurs*  
+  - [*Analyse de variance à deux facteurs*](https://github.com/HanBnrd/MementoR/blob/master/ANOVA2.md)  
 
 
 - Régression linéaire et corrélation  
