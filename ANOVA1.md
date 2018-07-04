@@ -115,4 +115,7 @@ Conclusion au seuil 5% :
 p-value < 0,05 → rejet de *H0* → différence significative de Y dans les 2 modalités  
 p-value > 0,05 → non rejet de *H0* → pas de différence significative de Y dans les 2 modalités  
 
-*Écrit par* [*Johann Benerradi*](https://github.com/HanBnrd)
+
+[MementoR](https://github.com/HanBnrd/MementoR)
+
+&copy; *2018* [*Johann Benerradi*](https://github.com/HanBnrd)
