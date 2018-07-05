@@ -21,6 +21,7 @@ X1 = qualitative1
 X2 = qualitative2
 ```
 
+
 ## Étape 2 : description des données
 Visualisation des données (boxplots) :
 ```c

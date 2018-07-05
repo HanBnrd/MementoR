@@ -19,6 +19,7 @@ Y = quantitative
 X = qualitative
 ```
 
+
 ## Étape 2 : description des données
 Visualisation des données (boxplots) :
 ```c
