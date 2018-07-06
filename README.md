@@ -26,12 +26,12 @@ Memento d'analyse de données regroupant l'essentiel à savoir pour faire des st
 - Test non paramétrique d’ajustement d’une distribution  
 
 
-- Analyse de variance (ANOVA)  
+- [Analyse de variance (ANOVA)](https://github.com/HanBnrd/MementoR/blob/master/ANOVA1.md)  
   - [*Analyse de variance à un facteur*](https://github.com/HanBnrd/MementoR/blob/master/ANOVA1.md)  
   - [*Analyse de variance à deux facteurs*](https://github.com/HanBnrd/MementoR/blob/master/ANOVA2.md)  
 
 
-- Régression linéaire et corrélation  
+- [Régression linéaire et corrélation](https://github.com/HanBnrd/MementoR/blob/master/RegressionLineaire.md)  
 
 
 - Régression logistique  
