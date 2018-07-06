@@ -50,8 +50,8 @@ shapiro.test(mod2)
 shapiro.test(mod3)
 ```
 Conclusions au seuil 5% :  
-p-value < 0,05 pour chaque sous-groupe → rejet de *HO* → les données ne suivent pas une loi normale  
-p-value > 0,05 pour chaque sous-groupe → non rejet de *HO* → les données suivent une loi normale → **Condition OK**
+p-value < 0,05 pour chaque sous-groupe → rejet de *H0* → les données ne suivent pas une loi normale  
+p-value > 0,05 pour chaque sous-groupe → non rejet de *H0* → les données suivent une loi normale → **Condition OK**
 
 ##### Condition 3 : homoscédasticité ou égalité des variances
 Hypothèses d'homoscédasticité :  
@@ -63,8 +63,8 @@ Test de Bartlett :
 bartlett.test(Y~X)
 ```
 Conclusion au seuil 5% :  
-p-value < 0,05 → rejet de *HO* → au moins une différence entre les variances  
-p-value > 0,05 → non rejet de *HO* → homoscédasticité → **Condition OK**
+p-value < 0,05 → rejet de *H0* → au moins une différence entre les variances  
+p-value > 0,05 → non rejet de *H0* → homoscédasticité → **Condition OK**
 
 
 ### Choix du test
