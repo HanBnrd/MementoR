@@ -116,7 +116,7 @@ abline(h=c(-2,0,2))
 ```c
 influence.measures(droite)
 ```
-Les valeurs influentes comportent des étoiles.  
+Évaluation de l'amélioration du modèle en enlevant chaque valeur une par une : les valeurs influentes comportent des étoiles  
 
 
 [MementoR](https://github.com/HanBnrd/MementoR)
