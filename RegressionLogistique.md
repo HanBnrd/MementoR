@@ -33,7 +33,7 @@ Calcul des proportions de Y=1 et Y=0 dans les différentes modalités des Xi
 **Premier cas : variables quantitatives**  
 Hypothèses :  
 **H0 :** *pas de corrélation linéaire entre X1 et X2*  
-**H1 :** *corrélation linéaire entre X1 sur X2*  
+**H1 :** *corrélation linéaire entre X1 et X2*  
 
 Test de corrélation :
 ```c
