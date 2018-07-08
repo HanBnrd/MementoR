@@ -20,7 +20,7 @@ Memento d'analyse de données regroupant l'essentiel à savoir pour faire des st
 
 - Test du chi2  
   - *chi2 d'ajustement*  
-  - *chi2 d'indépendance ou d'homogénéité*  
+  - *chi2 d'indépendance*  
 
 
 - Test non paramétrique d’ajustement d’une distribution  
@@ -34,7 +34,7 @@ Memento d'analyse de données regroupant l'essentiel à savoir pour faire des st
 - [Régression linéaire et corrélation](https://github.com/HanBnrd/MementoR/blob/master/RegressionLineaire.md)  
 
 
-- Régression logistique  
+- [Régression logistique](https://github.com/HanBnrd/MementoR/blob/master/RegressionLogistique.md)  
 
 
 - Analyse multivariée  
