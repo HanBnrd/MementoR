@@ -40,14 +40,13 @@ shapiro.test(Y)
 ```
 Conclusions au seuil 5% :  
 p-value < 0,05 pour chaque variable → rejet de *H0* → les données ne suivent pas une loi normale  
-p-value > 0,05 pour chaque variable → non rejet de *H0* → les données suivent une loi normale → **Condition OK**
+p-value > 0,05 pour chaque variable → non rejet de *H0* → les données suivent une loi normale → **condition OK**
 
 
-## Étape 4: réalisation des tests
-### Test de corrélation
+## Étape 4 : test de corrélation
 Hypothèses :  
 **H0 :** *pas de corrélation linéaire entre X et Y*  
-**H1 :** *corrélation linéaire entre X sur Y*  
+**H1 :** *corrélation linéaire entre X et Y*  
 
 Test de corrélation :
 ```c
@@ -58,8 +57,8 @@ p-value < 0,05 → rejet de *H0* → corrélation linéaire entre X et Y
 p-value > 0,05 → non rejet de *H0* → pas de corrélation linéaire entre X et Y  
 
 
-### Régression linéaire
-Calcul de la droite du modèle linéaire :
+## Étape 5 : modélisation
+Calcul du modèle linéaire :
 ```c
 droite = lm(Y~X)
 ```
@@ -68,12 +67,12 @@ Affichage des résultats :
 summary(droite)
 ```
 
-Équation de la droite calculée :
+**Équation du modèle :**
 ```c
 Y = [Estimate_X]*X + [Estimate_intercept]
 ```
 
-#### Coefficient directeur
+#### Coefficient directeur (summary)
 Hypothèses :  
 **H0 :** *le coefficient directeur de la droite est nul*  
 **H1 :** *le coefficient directeur de la droite n'est pas nul*  
@@ -82,7 +81,7 @@ Conclusion au seuil 5% :
 p-value < 0,05 → rejet de *H0* → coefficient non nul → existence d'une relation linéaire entre X et Y  
 p-value > 0,05 → non rejet de *H0* → coefficient nul → pas de relation linéaire entre X et Y  
 
-#### Coefficient de détermination
+#### Coefficient de détermination (summary)
 Hypothèses :  
 **H0 :** *le coefficient de détermination est nul*  
 **H1 :** *le coefficient de détermination n'est pas nul*  
@@ -92,27 +91,27 @@ p-value < 0,05 → rejet de *H0* → coefficient non nul → les valeurs de X ex
 p-value > 0,05 → non rejet de *H0* → coefficient nul → les valeurs de X n'expliquent pas les variations de Y  
 
 
-## Étape 5: validation du modèle
-#### Étude des résidus
+## Étape 6 : validation du modèle
+### Étude des résidus
 Résidus studentisés :
 ```c
 sresidus = rstudent(droite)
 ```
-Normailté des résidus :
+**Normailté des résidus**
 ```c
 shapiro.test(sresidus)
 ```
 Conclusion au seuil 5% :  
-p-value > 0,05 → non rejet de *H0* → les résidus suivent une loi normale → **Condition OK**  
+p-value > 0,05 → non rejet de *H0* → les résidus suivent une loi normale → **condition OK**  
 
-Linéarité :
+**Linéarité**
 ```c
 plot(X,sresidus)
 abline(h=c(-2,0,2))
 ```
-95 % des résidus entre -2 et 2 → **Condition OK**  
+95 % des résidus entre -2 et 2 → **condition OK**  
 
-#### Valeurs influentes
+### Valeurs influentes
 ```c
 influence.measures(droite)
 ```
