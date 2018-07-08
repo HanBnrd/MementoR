@@ -51,7 +51,7 @@ shapiro.test(mod3)
 ```
 Conclusions au seuil 5% :  
 p-value < 0,05 pour chaque sous-groupe → rejet de *H0* → les données ne suivent pas une loi normale  
-p-value > 0,05 pour chaque sous-groupe → non rejet de *H0* → les données suivent une loi normale → **Condition OK**
+p-value > 0,05 pour chaque sous-groupe → non rejet de *H0* → les données suivent une loi normale → **condition OK**
 
 ##### Condition 3 : homoscédasticité ou égalité des variances
 Hypothèses d'homoscédasticité :  
@@ -64,7 +64,7 @@ bartlett.test(Y~X)
 ```
 Conclusion au seuil 5% :  
 p-value < 0,05 → rejet de *H0* → au moins une différence entre les variances  
-p-value > 0,05 → non rejet de *H0* → homoscédasticité → **Condition OK**
+p-value > 0,05 → non rejet de *H0* → homoscédasticité → **condition OK**
 
 
 ### Choix du test
@@ -72,7 +72,7 @@ Si toutes les conditions sont vérifiées → test paramétrique
 Si au moins une des conditions n'est pas vérifiée → test non paramétrique
 
 
-## Étape 4: réalisation du test
+## Étape 4 : réalisation du test
 ### Test paramétrique
 Hypothèses :  
 **H0 :** *pas d'effet du facteur X sur Y*  
@@ -102,7 +102,7 @@ kruskal.test(X~Y)
 puis ```pairwisewilcox.test```
 
 
-## Étape 5: conclusion finale
+## Étape 5 : conclusion finale
 Si on ne peut pas rejeter *H0* → analyse terminée  
 Si on rejette *H0* → comparaison des modalités 2 à 2  
 
