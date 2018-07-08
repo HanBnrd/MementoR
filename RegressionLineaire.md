@@ -51,7 +51,7 @@ Hypothèses :
 
 Test de corrélation :
 ```c
-anova = corr.test(X,Y)
+corr.test(X,Y)
 ```
 Conclusion au seuil 5% :  
 p-value < 0,05 → rejet de *H0* → corrélation linéaire entre X et Y  
