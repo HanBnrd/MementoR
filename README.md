@@ -13,7 +13,7 @@ Memento d'analyse de données regroupant l'essentiel à savoir pour faire des st
 
 
 - Comparaison de moyennes d'échantillons  
-  - *Comparaison de la moyenne d'un échantillon à une valeur théorique*  
+  - [*Comparaison de la moyenne d'un échantillon à une valeur théorique*](https://github.com/HanBnrd/MementoR/blob/master/MoyenneTheorique.md)  
   - *Comparaison des moyennes de deux échantillons indépendants*  
   - *Comparaison des moyennes de deux échantillons appariés*  
 
@@ -26,7 +26,7 @@ Memento d'analyse de données regroupant l'essentiel à savoir pour faire des st
 - Test non paramétrique d’ajustement d’une distribution  
 
 
-- [Analyse de variance (ANOVA)](https://github.com/HanBnrd/MementoR/blob/master/ANOVA1.md)  
+- Analyse de variance (ANOVA)
   - [*Analyse de variance à un facteur*](https://github.com/HanBnrd/MementoR/blob/master/ANOVA1.md)  
   - [*Analyse de variance à deux facteurs*](https://github.com/HanBnrd/MementoR/blob/master/ANOVA2.md)  
 
