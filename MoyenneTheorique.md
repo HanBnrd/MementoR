@@ -3,7 +3,7 @@
 **Quand l'utiliser ?**
 
 Comparaison de la moyenne de Y à une valeur théorique avec :
-- Y variable qualitative  
+- Y variable quantitative  
 
 
 ## Étape 1 : lecture du jeu de données
