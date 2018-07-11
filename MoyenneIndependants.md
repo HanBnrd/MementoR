@@ -105,7 +105,7 @@ Conclusion au seuil 5% :
 p-value < 0,05 → rejet de *H0* → la moyenne de Y1 est significativement supérieure à celle de Y2  
 p-value > 0,05 → non rejet de *H0* → la moyenne de Y1 est significativement égale à celle de Y2  
 
-**Test unilatéral : moyenne inférieure à la valeur théorique**  
+**Test unilatéral : moyenne de Y1 inférieure à la moyenne de Y2**  
 Hypothèses :  
 **H0 :** *la moyenne de Y1 est égale à la moyenne de Y2*  
 **H1 :** *la moyenne de Y1 est inférieure à la moyenne de Y2*  
