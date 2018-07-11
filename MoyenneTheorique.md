@@ -27,7 +27,7 @@ boxplot(Y)
 
 Calcul de la moyenne :
 ```c
-sd(Y)
+mean(Y)
 ```
 
 
