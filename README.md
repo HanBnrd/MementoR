@@ -14,7 +14,7 @@ Memento d'analyse de données regroupant l'essentiel à savoir pour faire des st
 
 - Comparaison de moyennes d'échantillons  
   - [*Comparaison de la moyenne d'un échantillon à une valeur théorique*](https://github.com/HanBnrd/MementoR/blob/master/MoyenneTheorique.md)  
-  - *Comparaison des moyennes de deux échantillons indépendants*  
+  - [*Comparaison des moyennes de deux échantillons indépendants*](https://github.com/HanBnrd/MementoR/blob/master/MoyenneIndependants.md)  
   - *Comparaison des moyennes de deux échantillons appariés*  
 
 
