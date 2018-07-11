@@ -62,7 +62,7 @@ Si les conditions ne sont pas vérifiées → test non paramétrique
 
 ## Étape 4 : réalisation du test
 ### Tests paramétriques
-**Test bilatéral : moyenne différente de la valeur théorique**
+**Test bilatéral : moyenne différente de la valeur théorique**  
 Hypothèses :  
 **H0 :** *la moyenne de Y est égale à m0*  
 **H1 :** *la moyenne de Y est différente de m0*  
