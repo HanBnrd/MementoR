@@ -78,7 +78,8 @@ Si les conditions ne sont pas vérifiées → test non paramétrique
 
 
 ## Étape 4 : réalisation du test
-### Test paramétrique
+### Tests paramétriques
+**Test bilatéral : moyenne de Y1 différente de la moyenne de Y2**
 Hypothèses :  
 **H0 :** *la moyenne de Y1 est égale à la moyenne de Y2*  
 **H1 :** *la moyenne de Y1 est différente de le moyenne de Y2*  
