@@ -19,8 +19,8 @@ Memento d'analyse de données regroupant l'essentiel à savoir pour faire des st
 
 
 - Test du chi2  
-  - *chi2 d'ajustement*  
-  - *chi2 d'indépendance*  
+  - *Chi2 d'ajustement*  
+  - *Chi2 d'indépendance*  
 
 
 - Test non paramétrique d’ajustement d’une distribution  
@@ -42,7 +42,7 @@ Memento d'analyse de données regroupant l'essentiel à savoir pour faire des st
   - Analyse Factorielle des Correspondances Multiples (AFCM)  
 
 
-#  
+---  
 [MementoR](https://github.com/HanBnrd/MementoR)
 
 &copy; *2018* [*Johann Benerradi*](https://github.com/HanBnrd)
