@@ -1,14 +1,9 @@
-# MementoR
+# [MementoR](https://hanbnrd.github.io/MementoR/)
 
-Memento d'analyse de données sur R Studio  
-https://hanbnrd.github.io/MementoR/  
-
-
-**Résumé :**  
 Memento d'analyse de données regroupant l'essentiel à savoir pour faire des statistiques de base sur R Studio. Ce memento est inspiré des cours magistraux et travaux pratiques de Christelle Melo de Lima, Maître de conférences et chercheuse en Biostatistiques à l'Université Grenoble Alpes.  
 
 
-### Plan :
+### Plan
 
 - Statistiques descriptives et inférentielles  
 
