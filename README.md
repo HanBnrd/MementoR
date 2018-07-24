@@ -1,4 +1,4 @@
-# MementoR #
+# MementoR
 
 Memento d'analyse de données sur R Studio  
 
@@ -10,43 +10,44 @@ Memento d'analyse de données regroupant l'essentiel à savoir pour faire des st
 ### Plan :
 
 - Statistiques descriptives et inférentielles  
-&nbsp;
 
+&nbsp;
 
 - Comparaison de moyennes d'échantillons  
   - [*Comparaison de la moyenne d'un échantillon à une valeur théorique*](https://github.com/HanBnrd/MementoR/blob/master/MoyenneTheorique.md)  
   - [*Comparaison des moyennes de deux échantillons indépendants*](https://github.com/HanBnrd/MementoR/blob/master/MoyenneIndependants.md)  
   - [*Comparaison des moyennes de deux échantillons appariés*](https://github.com/HanBnrd/MementoR/blob/master/MoyenneApparies.md)  
-&nbsp;
 
+&nbsp;
 
 - Test du chi2  
   - *Chi2 d'ajustement*  
   - *Chi2 d'indépendance*  
+  
 &nbsp;
-
 
 - Test non paramétrique d’ajustement d’une distribution  
-&nbsp;
 
+&nbsp;
 
 - Analyse de variance (ANOVA)
   - [*Analyse de variance à un facteur*](https://github.com/HanBnrd/MementoR/blob/master/ANOVA1.md)  
   - [*Analyse de variance à deux facteurs*](https://github.com/HanBnrd/MementoR/blob/master/ANOVA2.md)  
-&nbsp;
 
+&nbsp;
 
 - [Régression linéaire et corrélation](https://github.com/HanBnrd/MementoR/blob/master/RegressionLineaire.md)  
-&nbsp;
 
+&nbsp;
 
 - [Régression logistique](https://github.com/HanBnrd/MementoR/blob/master/RegressionLogistique.md)  
-&nbsp;
 
+&nbsp;
 
 - Analyse multivariée  
   - Analyse en Composantes Principales (ACP)  
   - Analyse Factorielle des Correspondances Multiples (AFCM)  
+
 &nbsp;
 
 
