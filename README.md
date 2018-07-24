@@ -1,6 +1,7 @@
 # MementoR
 
 Memento d'analyse de données sur R Studio  
+https://hanbnrd.github.io/MementoR/  
 
 
 **Résumé :**  
@@ -13,9 +14,9 @@ Memento d'analyse de données regroupant l'essentiel à savoir pour faire des st
 
 
 - Comparaison de moyennes d'échantillons  
-  - [*Comparaison de la moyenne d'un échantillon à une valeur théorique*](https://github.com/HanBnrd/MementoR/blob/master/MoyenneTheorique.md)  
-  - [*Comparaison des moyennes de deux échantillons indépendants*](https://github.com/HanBnrd/MementoR/blob/master/MoyenneIndependants.md)  
-  - [*Comparaison des moyennes de deux échantillons appariés*](https://github.com/HanBnrd/MementoR/blob/master/MoyenneApparies.md)  
+  - [*Comparaison de la moyenne d'un échantillon à une valeur théorique*](https://github.com/HanBnrd/MementoR/blob/master/fiches/MoyenneTheorique.md)  
+  - [*Comparaison des moyennes de deux échantillons indépendants*](https://github.com/HanBnrd/MementoR/blob/master/fiches/MoyenneIndependants.md)  
+  - [*Comparaison des moyennes de deux échantillons appariés*](https://github.com/HanBnrd/MementoR/blob/master/fiches/MoyenneApparies.md)  
 &nbsp;
 
 
@@ -29,15 +30,15 @@ Memento d'analyse de données regroupant l'essentiel à savoir pour faire des st
 
 
 - Analyse de variance (ANOVA)
-  - [*Analyse de variance à un facteur*](https://github.com/HanBnrd/MementoR/blob/master/ANOVA1.md)  
-  - [*Analyse de variance à deux facteurs*](https://github.com/HanBnrd/MementoR/blob/master/ANOVA2.md)  
+  - [*Analyse de variance à un facteur*](https://github.com/HanBnrd/MementoR/blob/master/fiches/ANOVA1.md)  
+  - [*Analyse de variance à deux facteurs*](https://github.com/HanBnrd/MementoR/blob/master/fiches/ANOVA2.md)  
 &nbsp;
 
 
-- [Régression linéaire et corrélation](https://github.com/HanBnrd/MementoR/blob/master/RegressionLineaire.md)  
+- [Régression linéaire et corrélation](https://github.com/HanBnrd/MementoR/blob/master/fiches/RegressionLineaire.md)  
 
 
-- [Régression logistique](https://github.com/HanBnrd/MementoR/blob/master/RegressionLogistique.md)  
+- [Régression logistique](https://github.com/HanBnrd/MementoR/blob/master/fiches/RegressionLogistique.md)  
 
 
 - Analyse multivariée  
