@@ -172,7 +172,7 @@ L'AUC permet la comparaison entre modèles prédictifs
 Pour comparer des modèles et sélectionner le meilleur on peut également chercher celui avec les AIC et BIC les plus petits  
 
 
-#  
+---  
 [MementoR](https://github.com/HanBnrd/MementoR)
 
 &copy; *2018* [*Johann Benerradi*](https://github.com/HanBnrd)
