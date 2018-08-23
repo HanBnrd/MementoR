@@ -37,6 +37,6 @@ Memento d'analyse de données regroupant l'essentiel à savoir pour faire des st
 
 
 - Analyse multivariée  
-  - Analyse en Composantes Principales (ACP)  
+  - [Analyse en Composantes Principales (ACP)](https://github.com/HanBnrd/MementoR/blob/master/fiches/ACP.md)  
   - Analyse Factorielle des Correspondances Multiples (AFCM)  
 &nbsp;
