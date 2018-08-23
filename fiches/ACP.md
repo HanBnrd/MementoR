@@ -71,24 +71,24 @@ s.arrow(3*acp$co,xax=1,yax=2,add.plot = TRUE)
 
 
 ## Étape 4 : étude des contributions
-### Contribution des variables à la construction des axes
+Contribution des variables à la construction des axes :
 ```c
 inertia.dudi(acp,col=T,row=T)$col.abs
 ```
 
-### Contribution des individus à la construction des axes
+Contribution des individus à la construction des axes :
 ```c
 inertia.dudi(acp,col=T,row=T)$row.abs
 ```
 
 
 ## Étape 5 : étude des qualités
-### Qualité de la représentation des variables sur les axes
+Qualité de la représentation des variables sur les axes :
 ```c
 inertia.dudi(acp,col=T,row=T)$col.rel
 ```
 
-### Qualité de la représentation des individus sur les axes
+Qualité de la représentation des individus sur les axes :
 ```c
 inertia.dudi(acp,col=T,row=T)$row.rel
 ```
