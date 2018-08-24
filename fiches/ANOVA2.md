@@ -12,10 +12,10 @@
 *Importer le jeu de données*
 
 Utiliser le jeu de données :
-```c
+```python
 attach(data)
 ```
-```c
+```python
 Y = quantitative
 X1 = qualitative1
 X2 = qualitative2
@@ -24,7 +24,7 @@ X2 = qualitative2
 
 ## Étape 2 : description des données
 Visualisation des données (boxplots) :
-```c
+```python
 boxplot(Y~X1+X2)
 ```
 
@@ -35,7 +35,7 @@ Le jeu de données doit avoir été fait de tel que toutes les observations sont
 
 ##### Condition 2 : normalité des distributions
 Création de sous-groupes de Y pour les toutes les combinaisons de modalités :
-```c
+```python
 mod1a2a = Y[X1=="Modalite1a" & X2=="Modalite2a"]
 mod1a2b = Y[X1=="Modalite1a" & X2=="Modalite2b"]
 mod1b2a = Y[X1=="Modalite1b" & X2=="Modalite2a"]
@@ -47,7 +47,7 @@ Hypothèses de normalité :
 **H1 :** *les données ne suivent pas une loi normale*  
 
 Vérification de la normalité de la distribution de Y dans chaque modalité de X :
-```c
+```python
 shapiro.test(mod1a2a)
 shapiro.test(mod1a2b)
 shapiro.test(mod1b2a)
@@ -63,7 +63,7 @@ Hypothèses d'homoscédasticité :
 **H1 :** *différence entre les variances des différents sous-groupes*  
 
 Test de Bartlett :
-```c
+```python
 bartlett.test(Y,paste(X1,X2))
 ```
 Conclusion au seuil 5% :  
@@ -92,12 +92,12 @@ Troisième partie
 **H1 :** *effet de l'interaction des facteurs X1 et X2 sur Y*  
 
 Calcul de l'ANOVA :
-```c
+```python
 anova = aov(Y~X1+X2+X1*X2)
 ```
 
 Affichage des résultats :
-```c
+```python
 summary(anova)
 ```
 Conclusions au seuil 5% :  
@@ -119,7 +119,7 @@ Si on ne peut pas rejeter *H0* → analyse terminée
 Si on rejette *H0* → comparaison des modalités 2 à 2  
 
 Comparaison des modalités 2 à 2 :
-```c
+```python
 pairwise.t.test(Y,paste(X1,X2),p.adjust.method = "bonferroni")
 ```
 Remarque : *l'ajustement de la p-value est nécessaire quand on a plus de 2 modalités*

@@ -11,10 +11,10 @@ Comparaison de la moyenne de Y1 à la moyenne de Y2 :
 *Importer le jeu de données*
 
 Utiliser le jeu de données :
-```c
+```python
 attach(data)
 ```
-```c
+```python
 Y1 = quantitative1
 Y2 = quantitative2
 ```
@@ -22,12 +22,12 @@ Y2 = quantitative2
 
 ## Étape 2 : description des données
 Visualisation des données (boxplot) :
-```c
+```python
 boxplot(Y1,Y2)
 ```
 
 Calcul des moyennes :
-```c
+```python
 mean(Y1)
 mean(Y2)
 ```
@@ -35,7 +35,7 @@ mean(Y2)
 
 ## Étape 3 : vérification des conditions d'application
 Taille des échantillons :
-```c
+```python
 length(Y1)
 length(Y2)
 ```
@@ -50,7 +50,7 @@ Hypothèses de normalité :
 **H1 :** *les données ne suivent pas une loi normale*  
 
 Vérification de la normalité de la distribution de Y1 et de Y2 :
-```c
+```python
 shapiro.test(Y1)
 shapiro.test(Y2)
 ```
@@ -64,7 +64,7 @@ Hypothèses d'homoscédasticité :
 **H1 :** *différence entre les variances des populations*  
 
 Test de Fisher Snedecor :
-```c
+```python
 var.test(Y1,Y2)
 ```
 Conclusion au seuil 5% :  
@@ -85,7 +85,7 @@ Hypothèses :
 **H1 :** *la moyenne de Y1 est différente de le moyenne de Y2*  
 
 Test de Student :
-```c
+```python
 t.test(Y1,Y2)
 ```
 Conclusion au seuil 5% :  
@@ -98,7 +98,7 @@ Hypothèses :
 **H1 :** *la moyenne de Y1 est supérieure à la moyenne de Y2*  
 
 Test de Student :
-```c
+```python
 t.test(Y1,Y2,alternative="greater")
 ```
 Conclusion au seuil 5% :  
@@ -111,7 +111,7 @@ Hypothèses :
 **H1 :** *la moyenne de Y1 est inférieure à la moyenne de Y2*  
 
 Test de Student :
-```c
+```python
 t.test(Y1,Y2,alternative="less")
 ```
 Conclusion au seuil 5% :  

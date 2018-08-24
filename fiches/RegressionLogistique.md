@@ -14,10 +14,10 @@ Régression logistique multiple : plusieurs variables Xi
 *Importer le jeu de données*
 
 Utiliser le jeu de données :
-```c
+```python
 attach(data)
 ```
-```c
+```python
 Y = binaire
 X1 = explicative1
 X2 = explicative2
@@ -36,7 +36,7 @@ Hypothèses :
 **H1 :** *corrélation linéaire entre X1 et X2*  
 
 Test de corrélation :
-```c
+```python
 corr.test(X1,X2)
 ```
 Conclusion au seuil 5% :  
@@ -49,7 +49,7 @@ Hypothèses :
 **H1 :** *influence de X1 sur X2*  
 
 Test du chi2 d'indépendance :
-```c
+```python
 chisq.test(X1,X2)
 ```
 Conclusion au seuil 5% :  
@@ -59,20 +59,20 @@ p-value > 0,05 → non rejet de *H0* → pas d'influence de X1 sur X2 → **cond
 
 ## Étape 4 : modélisation
 Calcul du modèle logistique :
-```c
+```python
 logistique = glm(Y~X1+X2,family="binomial")
 ```
 Affichage des résultats :
-```c
+```python
 summary(logistique)
 ```
 
 **Équation du modèle :**
-```c
+```python
 P[Y=1|X] = exp(A1*X1+A2*X2+B)/(1+exp(A1*X1+B))
 ```
 Avec :
-```c
+```python
 A1 = Estimate_X1
 A2 = Estimate_X2
 B = Estimate_intercept
@@ -94,7 +94,7 @@ Hypothèses :
 **H0 :** *pas d'influence de Xi sur Y*  
 **H1 :** *influence de Xi sur Y*  
 
-```c
+```python
 anova(logistique,test="Chisq")
 ```
 
@@ -110,7 +110,7 @@ Hypothèses :
 **H1 :** *le modèle n'est pas correct*  
 
 Test de Hosmer & Lemeshow :
-```c
+```python
 hoslem.test(Y,fitted(logistique))
 ```
 
@@ -120,25 +120,25 @@ p-value > 0,05 → non rejet de *H0* → le modèle est cohérent avec les donn�
 
 ### Étude des résidus
 Résidus studentisés :
-```c
+```python
 sresidus = rstudent(logistique)
 ```
 **Normailté des résidus**
-```c
+```python
 shapiro.test(sresidus)
 ```
 Conclusion au seuil 5% :  
 p-value > 0,05 → non rejet de *H0* → les résidus suivent une loi normale → **condition OK**  
 
 **Linéarité**
-```c
+```python
 plot(X,sresidus)
 abline(h=c(-2,0,2))
 ```
 95 % des résidus entre -2 et 2 → **condition OK**  
 
 ### Valeurs influentes
-```c
+```python
 influence.measures(logistique)
 ```
 Évaluation de l'amélioration du modèle en enlevant chaque valeur une par une : les valeurs influentes comportent des étoiles  
@@ -146,18 +146,18 @@ influence.measures(logistique)
 
 ## Étape 6 : performance du modèle
 Calcul des prédictions par le modèle :
-```c
+```python
 predictions = predict(logistique)
 ```
 
 Tracer la courbe ROC :
-```c
+```python
 courbe = roc(Y,predictions)
 plot(courbe)
 ```
 
 Calcul de l'AUC :
-```c
+```python
 courbe$auc
 ```
 AUC             | Performance

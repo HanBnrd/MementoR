@@ -11,10 +11,10 @@
 *Importer le jeu de données*
 
 Utiliser le jeu de données :
-```c
+```python
 attach(data)
 ```
-```c
+```python
 Y = quantitative
 X = qualitative
 ```
@@ -22,7 +22,7 @@ X = qualitative
 
 ## Étape 2 : description des données
 Visualisation des données (boxplots) :
-```c
+```python
 boxplot(Y~X)
 ```
 
@@ -33,7 +33,7 @@ Le jeu de données doit avoir été fait de tel que toutes les observations sont
 
 ##### Condition 2 : normalité des distributions
 Création des sous-groupes de Y pour les différentes modalités :
-```c
+```python
 mod1 = Y[X=="Modalite1"]
 mod2 = Y[X=="Modalite2"]
 mod3 = Y[X=="Modalite3"]
@@ -44,7 +44,7 @@ Hypothèses de normalité :
 **H1 :** *les données ne suivent pas une loi normale*  
 
 Vérification de la normalité de la distribution de Y dans chaque modalité de X :
-```c
+```python
 shapiro.test(mod1)
 shapiro.test(mod2)
 shapiro.test(mod3)
@@ -59,7 +59,7 @@ Hypothèses d'homoscédasticité :
 **H1 :** *différence entre les variances des différents sous-groupes*  
 
 Test de Bartlett :
-```c
+```python
 bartlett.test(Y~X)
 ```
 Conclusion au seuil 5% :  
@@ -79,12 +79,12 @@ Hypothèses :
 **H1 :** *effet du facteur X sur Y*  
 
 Calcul de l'ANOVA :
-```c
+```python
 anova = aov(Y~X)
 ```
 
 Affichage des résultats :
-```c
+```python
 summary(anova)
 ```
 Conclusion au seuil 5% :  
@@ -96,7 +96,7 @@ p-value > 0,05 → non rejet de *H0* → pas d'effet de X sur Y
 On travaille sur les rangs → moins de précision
 
 Test de Kruskal Wallis :
-```c
+```python
 kruskal.test(X~Y)
 ```
 puis ```pairwisewilcox.test```
@@ -107,7 +107,7 @@ Si on ne peut pas rejeter *H0* → analyse terminée
 Si on rejette *H0* → comparaison des modalités 2 à 2  
 
 Comparaison des modalités 2 à 2 :
-```c
+```python
 pairwise.t.test(Y,X,p.adjust.method = "bonferroni")
 ```
 Remarque : *l'ajustement de la p-value est nécessaire quand on a plus de 2 modalités*
