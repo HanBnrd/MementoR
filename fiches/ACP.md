@@ -11,12 +11,12 @@ Méthode de description graphique de variables quantitatives
 Le jeu de données *data* ne contient que des variables quantitatives sauf la première colonne nommée *id* qui contient les identifiants  
 
 Utiliser le jeu de données :
-```python
+```r
 attach(data)
 ```
 
 Lier les *id* aux lignes :
-```python
+```r
 rownames(data) = data$id
 data = data[,-1]
 ```
@@ -24,7 +24,7 @@ data = data[,-1]
 
 ## Étape 2 : description des données
 Informations sur les données :
-```python
+```r
 summary(data)
 ```
 
@@ -33,41 +33,41 @@ summary(data)
 *Charger la librairie ade4*  
 
 ### Calcul de l'ACP
-```python
+```r
 acp = dudi.pca(data)
 ```
 *Sélectionner le nombre d'axes qui permet de représenter environ 70 % du jeu de données*  
 
 ### Choix du nombre d'axes
-```python
+```r
 intertia.dudi(acp)
 ```
 On garde le nombre d'axe qui représente au moins 70 % du jeu de données  
 
 Nouveau calcul de l'ACP en sélectionnant le nombre exact d'axes :
-```python
+```r
 acp = dudi.pca(data)
 ```
 
 ### Coordonnées dans le nouveau référentiel
 Coordonnées des variables :
-```python
+```r
 acp$co
 ```
 
 Coordonnées des individus :
-```python
+```r
 acp$li
 ```
 
 ### Graphiques
 Cercles de corrélation *(exemple avec 2 axes principaux)* :
-```python
+```r
 s.corcircle(acp$co,xax = 1,yax = 2)
 ```
 
 Projection des individus et des variables sur un graphique commun :
-```python
+```r
 s.label(acp$li,xax=1,yax=2)
 s.arrow(3*acp$co,xax=1,yax=2,add.plot = TRUE)
 ```
@@ -75,24 +75,24 @@ s.arrow(3*acp$co,xax=1,yax=2,add.plot = TRUE)
 
 ## Étape 4 : étude des contributions
 Contribution des variables à la construction des axes :
-```python
+```r
 inertia.dudi(acp,col=T,row=T)$col.abs
 ```
 
 Contribution des individus à la construction des axes :
-```python
+```r
 inertia.dudi(acp,col=T,row=T)$row.abs
 ```
 
 
 ## Étape 5 : étude des qualités
 Qualité de la représentation des variables sur les axes :
-```python
+```r
 inertia.dudi(acp,col=T,row=T)$col.rel
 ```
 
 Qualité de la représentation des individus sur les axes :
-```python
+```r
 inertia.dudi(acp,col=T,row=T)$row.rel
 ```
 

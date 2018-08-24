@@ -10,10 +10,10 @@ Comparaison de la moyenne de Y à une valeur théorique avec :
 *Importer le jeu de données*
 
 Utiliser le jeu de données :
-```python
+```r
 attach(data)
 ```
-```python
+```r
 Y = quantitative
 m0 = theorique
 ```
@@ -21,19 +21,19 @@ m0 = theorique
 
 ## Étape 2 : description des données
 Visualisation des données (boxplot) :
-```python
+```r
 boxplot(Y)
 ```
 
 Calcul de la moyenne :
-```python
+```r
 mean(Y)
 ```
 
 
 ## Étape 3 : vérification des conditions d'application
 Taille de l'échantillon :
-```python
+```r
 length(Y)
 ```
 
@@ -47,7 +47,7 @@ Hypothèses de normalité :
 **H1 :** *les données ne suivent pas une loi normale*  
 
 Vérification de la normalité de la distribution de Y :
-```python
+```r
 shapiro.test(Y)
 ```
 Conclusions au seuil 5% :  
@@ -68,7 +68,7 @@ Hypothèses :
 **H1 :** *la moyenne de Y est différente de m0*  
 
 Test de Student :
-```python
+```r
 t.test(Y,mu=m0)
 ```
 Conclusion au seuil 5% :  
@@ -81,7 +81,7 @@ Hypothèses :
 **H1 :** *la moyenne de Y est supérieure à m0*  
 
 Test de Student :
-```python
+```r
 t.test(Y,mu=m0,alternative="greater")
 ```
 Conclusion au seuil 5% :  
@@ -94,7 +94,7 @@ Hypothèses :
 **H1 :** *la moyenne de Y est inférieure à m0*  
 
 Test de Student :
-```python
+```r
 t.test(Y,mu=m0,alternative="less")
 ```
 Conclusion au seuil 5% :  

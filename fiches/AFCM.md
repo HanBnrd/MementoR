@@ -11,7 +11,7 @@ Méthode de description graphique de variables qualitative
 Le jeu de données ne contient que des variables qualitatives  
 
 Utiliser le jeu de données :
-```python
+```r
 data(qualitatives)
 attach(qualitatives)
 ```
@@ -19,7 +19,7 @@ attach(qualitatives)
 
 ## Étape 2 : description des données
 Visualisation des données (tableaux) :
-```python
+```r
 table(quali1)
 table(quali2)
 table(quali3)
@@ -39,48 +39,48 @@ Les effectifs doivent être homogènes entre les modalités de chaque variable
 
 ### Tableau de Burt
 Construction du tableau de Burt :
-```python
+```r
 burt = acm.burt(qualitatives,qualitatives)
 ```
 
 Affichage du tableau de Burt :
-```python
+```r
 burt
 ```
 
 ### Calcul de l'AFCM
-```python
+```r
 afcm = dudi.coa(burt)
 ```
 *Sélectionner le nombre d'axes qui permet de représenter environ 70 % du jeu de données*  
 
 ### Choix du nombre d'axes
-```python
+```r
 intertia.dudi(afcm)
 ```
 On garde le nombre d'axe qui représente au moins 70 % du jeu de données  
 
 Nouveau calcul de l'AFCM en sélectionnant le nombre exact d'axes :
-```python
+```r
 afcm = dudi.coa(burt)
 ```
 
 ### Coordonnées dans le nouveau référentiel
 Coordonnées des variables :
-```python
+```r
 afcm$co
 ```
 
 ### Graphiques
 Projection des variables *(exemple avec 2 axes principaux)* :
-```python
+```r
 s.arrow(afcm$co,xax=1,yax=2)
 ```
 
 
 ## Étape 5 : étude des contributions
 Contribution des variables à la construction des axes :
-```python
+```r
 inertia.dudi(afcm,col=T,row=T)$col.abs
 ```
 

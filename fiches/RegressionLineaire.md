@@ -11,10 +11,10 @@
 *Importer le jeu de données*
 
 Utiliser le jeu de données :
-```python
+```r
 attach(data)
 ```
-```python
+```r
 Y = expliquee
 X = explicative
 ```
@@ -22,7 +22,7 @@ X = explicative
 
 ## Étape 2 : description des données
 Visualisation des données :
-```python
+```r
 plot(Y~X)
 ```
 
@@ -34,7 +34,7 @@ Hypothèses de normalité :
 **H1 :** *les données ne suivent pas une loi normale*  
 
 Vérification de la normalité de la distribution de X et Y :
-```python
+```r
 shapiro.test(X)
 shapiro.test(Y)
 ```
@@ -49,7 +49,7 @@ Hypothèses :
 **H1 :** *corrélation linéaire entre X et Y*  
 
 Test de corrélation :
-```python
+```r
 corr.test(X,Y)
 ```
 Conclusion au seuil 5% :  
@@ -59,16 +59,16 @@ p-value > 0,05 → non rejet de *H0* → pas de corrélation linéaire entre X e
 
 ## Étape 5 : modélisation
 Calcul du modèle linéaire :
-```python
+```r
 droite = lm(Y~X)
 ```
 Affichage des résultats :
-```python
+```r
 summary(droite)
 ```
 
 **Équation du modèle :**
-```python
+```r
 Y = [Estimate_X]*X + [Estimate_intercept]
 ```
 
@@ -94,25 +94,25 @@ p-value > 0,05 → non rejet de *H0* → coefficient nul → les valeurs de X n'
 ## Étape 6 : validation du modèle
 ### Étude des résidus
 Résidus studentisés :
-```python
+```r
 sresidus = rstudent(droite)
 ```
 **Normailté des résidus**
-```python
+```r
 shapiro.test(sresidus)
 ```
 Conclusion au seuil 5% :  
 p-value > 0,05 → non rejet de *H0* → les résidus suivent une loi normale → **condition OK**  
 
 **Linéarité**
-```python
+```r
 plot(X,sresidus)
 abline(h=c(-2,0,2))
 ```
 95 % des résidus entre -2 et 2 → **condition OK**  
 
 ### Valeurs influentes
-```python
+```r
 influence.measures(droite)
 ```
 Évaluation de l'amélioration du modèle en enlevant chaque valeur une par une : les valeurs influentes comportent des étoiles  

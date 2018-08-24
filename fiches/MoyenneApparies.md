@@ -12,10 +12,10 @@ Comparaison de la moyenne de Y1 à la moyenne de Y2 :
 *Importer le jeu de données*
 
 Utiliser le jeu de données :
-```python
+```r
 attach(data)
 ```
-```python
+```r
 Y1 = quantitative1
 Y2 = quantitative2
 ```
@@ -23,12 +23,12 @@ Y2 = quantitative2
 
 ## Étape 2 : description des données
 Visualisation des données (boxplot) :
-```python
+```r
 boxplot(Y1,Y2)
 ```
 
 Calcul des moyennes :
-```python
+```r
 mean(Y1)
 mean(Y2)
 ```
@@ -36,11 +36,11 @@ mean(Y2)
 
 ## Étape 3 : vérification des conditions d'application
 Taille des échantillons :  
-```python
+```r
 length(Y1)
 ```
 ou
-```python
+```r
 length(Y2)
 ```
 
@@ -54,7 +54,7 @@ Hypothèses de normalité :
 **H1 :** *les différences ne suivent pas une loi normale*  
 
 Vérification de la normalité de la distribution des différences entre Y1 et Y2 :
-```python
+```r
 D = Y1 - Y2
 shapiro.test(D)
 ```
@@ -76,7 +76,7 @@ Hypothèses :
 **H1 :** *la moyenne de Y1 est différente de le moyenne de Y2*  
 
 Test de Student :
-```python
+```r
 t.test(Y1,Y2,paired=T)
 ```
 Conclusion au seuil 5% :  
@@ -89,7 +89,7 @@ Hypothèses :
 **H1 :** *la moyenne de Y1 est supérieure à la moyenne de Y2*  
 
 Test de Student :
-```python
+```r
 t.test(Y1,Y2,paired=T,alternative="greater")
 ```
 Conclusion au seuil 5% :  
@@ -102,7 +102,7 @@ Hypothèses :
 **H1 :** *la moyenne de Y1 est inférieure à la moyenne de Y2*  
 
 Test de Student :
-```python
+```r
 t.test(Y1,Y2,paired=T,alternative="less")
 ```
 Conclusion au seuil 5% :  
