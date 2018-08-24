@@ -8,7 +8,12 @@ Méthode de description graphique de variables quantitatives
 ## Étape 1 : lecture du jeu de données
 *Importer le jeu de données*
 
-Le jeu de donné ne contient que des variables quantitatives sauf la première colonne nommée *id* qui contient les identifiants.  
+Le jeu de données *data* ne contient que des variables quantitatives sauf la première colonne nommée *id* qui contient les identifiants  
+
+Utiliser le jeu de données :
+```c
+attach(data)
+```
 
 Lier les *id* aux lignes :
 ```c
@@ -18,13 +23,13 @@ data = data[,-1]
 
 
 ## Étape 2 : description des données
+Informations sur les données :
 ```c
 summary(data)
 ```
 
 
 ## Étape 3 : analyse du jeu de données
-
 *Charger la librairie ade4*  
 
 ### Calcul de l'ACP
@@ -37,7 +42,7 @@ acp = dudi.pca(data)
 ```c
 intertia.dudi(acp)
 ```
-On garde le nombre d'axe qui représente au moins 70 % du jeu de données.  
+On garde le nombre d'axe qui représente au moins 70 % du jeu de données  
 
 Nouveau calcul de l'ACP en sélectionnant le nombre exact d'axes :
 ```c
@@ -45,22 +50,20 @@ acp = dudi.pca(data)
 ```
 
 ### Coordonnées dans le nouveau référentiel
-Coordonnées des colonnes :
+Coordonnées des variables :
 ```c
 acp$co
 ```
 
-Coordonnées des lignes :
+Coordonnées des individus :
 ```c
 acp$li
 ```
 
 ### Graphiques
-Cercles de corrélation :
+Cercles de corrélation *(exemple avec 2 axes principaux)* :
 ```c
 s.corcircle(acp$co,xax = 1,yax = 2)
-s.corcircle(acp$co,xax = 2,yax = 3)
-s.corcircle(acp$co,xax = 1,yax = 3)
 ```
 
 Projection des individus et des variables sur un graphique commun :
