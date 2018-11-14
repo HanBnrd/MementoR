@@ -31,7 +31,7 @@ boxplot(Y~X1+X2)
 
 ## Étape 3 : vérification des conditions d'application
 ##### Condition 1 : indépendance des données
-Le jeu de données doit avoir été fait de tel que toutes les observations sont indépendantes les unes des autres
+Le jeu de données doit avoir été fait tel que toutes les observations sont indépendantes les unes des autres
 
 ##### Condition 2 : normalité des distributions
 Création de sous-groupes de Y pour les toutes les combinaisons de modalités :
