@@ -40,7 +40,7 @@ acp = dudi.pca(data)
 
 ### Choix du nombre d'axes
 ```r
-intertia.dudi(acp)
+inertia.dudi(acp)
 ```
 On garde le nombre d'axe qui représente au moins 70 % du jeu de données  
 
