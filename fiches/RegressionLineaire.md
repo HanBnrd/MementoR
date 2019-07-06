@@ -118,7 +118,4 @@ influence.measures(droite)
 Évaluation de l'amélioration du modèle en enlevant chaque valeur une par une : les valeurs influentes comportent des étoiles  
 
 
----  
-[MementoR](https://github.com/HanBnrd/MementoR)
-
-&copy; *2018* [*Johann Benerradi*](https://github.com/HanBnrd)
+> &larr; [Retour](../README.md)

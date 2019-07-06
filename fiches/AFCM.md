@@ -85,7 +85,4 @@ inertia.dudi(afcm,col=T,row=T)$col.abs
 ```
 
 
----  
-[MementoR](https://github.com/HanBnrd/MementoR)
-
-&copy; *2018* [*Johann Benerradi*](https://github.com/HanBnrd)
+> &larr; [Retour](../README.md)

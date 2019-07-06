@@ -117,7 +117,4 @@ p-value < 0,05 → rejet de *H0* → différence significative de Y dans les 2 m
 p-value > 0,05 → non rejet de *H0* → pas de différence significative de Y dans les 2 modalités  
 
 
----  
-[MementoR](https://github.com/HanBnrd/MementoR)
-
-&copy; *2018* [*Johann Benerradi*](https://github.com/HanBnrd)
+> &larr; [Retour](../README.md)

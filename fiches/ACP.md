@@ -97,7 +97,4 @@ inertia.dudi(acp,col=T,row=T)$row.rel
 ```
 
 
----  
-[MementoR](https://github.com/HanBnrd/MementoR)
-
-&copy; *2018* [*Johann Benerradi*](https://github.com/HanBnrd)
+> &larr; [Retour](../README.md)

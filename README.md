@@ -5,38 +5,38 @@ Memento d'analyse de données regroupant l'essentiel à savoir pour faire des st
 
 ### Plan
 
-- Statistiques descriptives et inférentielles  
+[comment]: <> - Statistiques descriptives et inférentielles  
 
 
 - Comparaison de moyennes d'échantillons  
-  - [*Comparaison de la moyenne d'un échantillon à une valeur théorique*](https://github.com/HanBnrd/MementoR/blob/master/fiches/MoyenneTheorique.md)  
-  - [*Comparaison des moyennes de deux échantillons indépendants*](https://github.com/HanBnrd/MementoR/blob/master/fiches/MoyenneIndependants.md)  
-  - [*Comparaison des moyennes de deux échantillons appariés*](https://github.com/HanBnrd/MementoR/blob/master/fiches/MoyenneApparies.md)  
+  - [*Comparaison de la moyenne d'un échantillon à une valeur théorique*](./fiches/MoyenneTheorique.md)  
+  - [*Comparaison des moyennes de deux échantillons indépendants*](./fiches/MoyenneIndependants.md)  
+  - [*Comparaison des moyennes de deux échantillons appariés*](./fiches/MoyenneApparies.md)  
 &nbsp;
 
 
-- Test du chi2  
-  - *Chi2 d'ajustement*  
-  - *Chi2 d'indépendance*  
-&nbsp;
+[comment]: <> - Test du chi2  
+[comment]: <>   - *Chi2 d'ajustement*  
+[comment]: <>   - *Chi2 d'indépendance*  
+[comment]: <> &nbsp;
 
 
-- Test non paramétrique d’ajustement d’une distribution  
+[comment]: <> - Test non paramétrique d’ajustement d’une distribution  
 
 
 - Analyse de variance (ANOVA)
-  - [*Analyse de variance à un facteur*](https://github.com/HanBnrd/MementoR/blob/master/fiches/ANOVA1.md)  
-  - [*Analyse de variance à deux facteurs*](https://github.com/HanBnrd/MementoR/blob/master/fiches/ANOVA2.md)  
+  - [*Analyse de variance à un facteur*](./fiches/ANOVA1.md)  
+  - [*Analyse de variance à deux facteurs*](./fiches/ANOVA2.md)  
 &nbsp;
 
 
-- [Régression linéaire et corrélation](https://github.com/HanBnrd/MementoR/blob/master/fiches/RegressionLineaire.md)  
+- [Régression linéaire et corrélation](./fiches/RegressionLineaire.md)  
 
 
-- [Régression logistique](https://github.com/HanBnrd/MementoR/blob/master/fiches/RegressionLogistique.md)  
+- [Régression logistique](./fiches/RegressionLogistique.md)  
 
 
 - Analyse multivariée  
-  - [Analyse en Composantes Principales (ACP)](https://github.com/HanBnrd/MementoR/blob/master/fiches/ACP.md)  
-  - [Analyse Factorielle des Correspondances Multiples (AFCM)](https://github.com/HanBnrd/MementoR/blob/master/fiches/AFCM.md)  
+  - [Analyse en Composantes Principales (ACP)](./fiches/ACP.md)  
+  - [Analyse Factorielle des Correspondances Multiples (AFCM)](./fiches/AFCM.md)  
 &nbsp;

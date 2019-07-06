@@ -160,19 +160,17 @@ Calcul de l'AUC :
 ```r
 courbe$auc
 ```
-AUC             | Performance
-----------------|---------------------------------  
-AUC = 0,5       | pas de discrimination Y=0 et Y=1  
-0,7 < AUC < 0,8 | discrimination acceptable  
-0,8 < AUC < 0,9 | discrimination excellente  
-0,9 < AUC < 1   | discrimination presque parfaite  
+
+| AUC | Performance |
+| --- | --- |
+| AUC = 0,5 | pas de discrimination Y=0 et Y=1 |
+| 0,7 < AUC < 0,8 | discrimination acceptable |
+| 0,8 < AUC < 0,9 | discrimination excellente |
+| 0,9 < AUC < 1 | discrimination presque parfaite |
 
 L'AUC permet la comparaison entre modèles prédictifs  
 
 Pour comparer des modèles et sélectionner le meilleur on peut également chercher celui avec les AIC et BIC les plus petits  
 
 
----  
-[MementoR](https://github.com/HanBnrd/MementoR)
-
-&copy; *2018* [*Johann Benerradi*](https://github.com/HanBnrd)
+> &larr; [Retour](../README.md)
