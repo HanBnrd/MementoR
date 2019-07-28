@@ -119,4 +119,4 @@ p-value < 0,05 → rejet de *H0* → la moyenne de Y1 est significativement inf�
 p-value > 0,05 → non rejet de *H0* → la moyenne de Y1 est significativement égale à celle de Y2  
 
 
-> &larr; [Retour](../README.md)
+> &larr; [Plan](../README.md)

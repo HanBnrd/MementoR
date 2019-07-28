@@ -118,4 +118,4 @@ influence.measures(droite)
 Évaluation de l'amélioration du modèle en enlevant chaque valeur une par une : les valeurs influentes comportent des étoiles  
 
 
-> &larr; [Retour](../README.md)
+> &larr; [Plan](../README.md)

@@ -85,4 +85,4 @@ inertia.dudi(afcm,col=T,row=T)$col.abs
 ```
 
 
-> &larr; [Retour](../README.md)
+> &larr; [Plan](../README.md)

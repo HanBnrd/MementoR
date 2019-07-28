@@ -97,4 +97,4 @@ inertia.dudi(acp,col=T,row=T)$row.rel
 ```
 
 
-> &larr; [Retour](../README.md)
+> &larr; [Plan](../README.md)

@@ -173,4 +173,4 @@ L'AUC permet la comparaison entre modèles prédictifs
 Pour comparer des modèles et sélectionner le meilleur on peut également chercher celui avec les AIC et BIC les plus petits  
 
 
-> &larr; [Retour](../README.md)
+> &larr; [Plan](../README.md)
