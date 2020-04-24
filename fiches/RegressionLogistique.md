@@ -1,5 +1,7 @@
 # Régression logistique
 
+> [Code source](https://github.com/HanBnrd/MementoR/blob/master/src/RegressionLogistique.R) &rarr;
+
 **Quand l'utiliser ?**
 
 Étude de la probabilité de Y en fonction des Xi :

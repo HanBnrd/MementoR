@@ -1,5 +1,7 @@
 # Comparaison des moyennes de deux échantillons appariés
 
+> [Code source](https://github.com/HanBnrd/MementoR/blob/master/src/MoyenneApparies.R) &rarr;
+
 **Quand l'utiliser ?**
 
 Comparaison de la moyenne de Y1 à la moyenne de Y2 :

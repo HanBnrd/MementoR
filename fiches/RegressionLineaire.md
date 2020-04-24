@@ -1,5 +1,7 @@
 # Régression linéaire et corrélation
 
+> [Code source](https://github.com/HanBnrd/MementoR/blob/master/src/RegressionLineaire.R) &rarr;
+
 **Quand les utiliser ?**
 
 Étude de la relation entre X et Y avec :

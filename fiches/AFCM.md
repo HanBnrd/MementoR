@@ -1,5 +1,7 @@
 # Analyse Factorielle des Correspondances Multiples
 
+> [Code source](https://github.com/HanBnrd/MementoR/blob/master/src/AFCM.R) &rarr;
+
 **Quand l'utiliser ?**
 
 Méthode de description graphique de variables qualitative

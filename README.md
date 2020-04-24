@@ -25,3 +25,5 @@ Memento d'analyse de données regroupant l'essentiel à savoir pour faire des st
   - [Analyse en Composantes Principales (ACP)](./fiches/ACP.md)  
   - [Analyse Factorielle des Correspondances Multiples (AFCM)](./fiches/AFCM.md)  
 &nbsp;
+
+> [Code source](https://github.com/HanBnrd/MementoR/tree/master/src) &rarr;

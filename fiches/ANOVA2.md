@@ -1,5 +1,7 @@
 # Analyse de variance à deux facteurs
 
+> [Code source](https://github.com/HanBnrd/MementoR/blob/master/src/ANOVA2.R) &rarr;
+
 **Quand l'utiliser ?**
 
 Étude de l'influence de X1 et X2 sur Y avec :

@@ -1,5 +1,7 @@
 # Comparaison de la moyenne d'un échantillon à une valeur théorique
 
+> [Code source](https://github.com/HanBnrd/MementoR/blob/master/src/MoyenneTheorique.R) &rarr;
+
 **Quand l'utiliser ?**
 
 Comparaison de la moyenne de Y à une valeur théorique avec :

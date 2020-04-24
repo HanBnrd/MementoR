@@ -1,5 +1,7 @@
 # Analyse en Composantes Principales
 
+> [Code source](https://github.com/HanBnrd/MementoR/blob/master/src/ACP.R) &rarr;
+
 **Quand l'utiliser ?**
 
 Méthode de description graphique de variables quantitatives

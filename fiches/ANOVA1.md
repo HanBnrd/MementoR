@@ -1,5 +1,7 @@
 # Analyse de variance à un facteur
 
+> [Code source](https://github.com/HanBnrd/MementoR/blob/master/src/ANOVA1.R) &rarr;
+
 **Quand l'utiliser ?**
 
 Étude de l'influence de X sur Y avec :
