@@ -32,7 +32,7 @@ anova = aov(Y~X)
 summary(anova)
 ### Test non paramétrique :
 kruskal.test(X~Y)
-### > puis ```pairwisewilcox.test```
+### > puis ```pairwise.wilcox.test```
 
 
 ## Étape 5 - conclusion finale :
